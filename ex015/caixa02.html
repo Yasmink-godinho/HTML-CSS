@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        .principal{
+            text-align: center;
+            text-shadow: 3px 3px 3px crimson;
+            color: white;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: crimson;
+            margin: 0px;
+            text-align: justify;
+            
+        }
+        header{
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, 0.384) ;
+        }
+        nav {
+            background-color: rgb(253, 108, 142);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;       
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0 #00000062 ;
+    
+        }
+        article{
+            background-color: pink;
+            padding: 5px;
+        }
+        article > aside{
+            background-color:rgb(253, 108, 142);
+            color: white;
+            font-weight: 300;
+            box-shadow: 1px 1px 1px black;
+            
+        
+        }
+        footer{
+            background-color: aqua;
+            color: black;
+            padding: 4px;
+            text-align: center;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+       /* #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        } */
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1 class="principal">Barbie</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+    <main> <!--Conteudo Principal-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o filme mais visto pelo mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit quisquam voluptatibus eaque saepe? Alias totam corrupti doloribus quas eveniet necessitatibus aliquid possimus suscipit reiciendis, doloremque consequatur sunt quia iste!</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>    
+        </section>
+    </main>
+    <footer> <!--Roda Pé-->
+        <p>Desenvolvido por Yasmin</p>
+    </footer>
+   <!--<div id="bola"></div>--> 
+</body>
+</html>
