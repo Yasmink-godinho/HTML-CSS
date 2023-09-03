@@ -9,7 +9,7 @@ Desktop: de 992px até 1200px
 Grandes telas: acima de 1200px
 */ 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /* quando atingir a largura mínima(768) o menu some */
     span#icomenu{
         display: none;
     }
@@ -19,10 +19,10 @@ Grandes telas: acima de 1200px
     }
 
     menu > ul > li{
-        display: inline-block;
+        display: inline-block; /* um ao lado do outro */
     }
 
     main{
-        width: 768px;
+        width: 768px; /*largura fixa do conteudo */
     }
 }
